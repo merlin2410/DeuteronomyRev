@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>നിയമാവർത്തനം - അഡ്വാൻസ്ഡ് ക്വിസ് പഠനസഹായി</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Noto Sans Malayalam', sans-serif;
+            background-color: #f0fdf4; /* Light emerald background */
+        }
+        /* Mobile friendly reveal answer */
+        .reveal-answer {
+            background-color: #064e3b; /* Dark emerald */
+            color: transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border-bottom: 2px dashed #6ee7b7;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .reveal-answer:hover, .reveal-answer.revealed {
+            color: #fde047; /* Yellow for answer */
+            text-shadow: none;
+        }
+        .section-header {
+            background: linear-gradient(90deg, #064e3b 0%, #059669 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            border-top: 4px solid #047857;
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased p-3 sm:p-4 md:p-8">
+
+    <div class="max-w-7xl mx-auto space-y-6 sm:space-y-8">
+        
+        <!-- Header -->
+        <header class="bg-emerald-900 text-white p-6 sm:p-8 md:p-12 rounded-3xl shadow-2xl text-center relative overflow-hidden">
+            <div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: url('https://www.transparenttextures.com/patterns/stardust.png');"></div>
+            <div class="relative z-10">
+                <span class="bg-emerald-800 text-emerald-100 px-3 py-1 rounded-full text-xs sm:text-sm font-bold tracking-widest uppercase mb-4 inline-block shadow-inner">Advanced Level / Priests' Edition</span>
+                <h1 class="text-2xl sm:text-4xl md:text-6xl font-extrabold mb-3 drop-shadow-xl flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+                    <i class="fas fa-scroll"></i> നിയമാവർത്തനം
+                </h1>
+                <p class="text-lg sm:text-xl md:text-2xl text-emerald-200 font-medium">മെഗാ ബൈബിൾ ക്വിസ് പഠനസഹായി (POC Version)</p>
+                <div class="mt-6 flex justify-center gap-3 flex-wrap text-sm sm:text-base">
+                    <span class="bg-white text-emerald-900 px-4 py-2 rounded-full font-bold shadow-lg flex items-center"><i class="fas fa-star mr-2"></i>പ്രമേയം: ഒരു ദൈവം, ഒരു ജനം</span>
+                    <span class="bg-white text-emerald-900 px-4 py-2 rounded-full font-bold shadow-lg flex items-center"><i class="fas fa-book-open mr-2"></i>അധ്യായങ്ങൾ: 34</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Deep Dive Grid 1 -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
+
+            <!-- Section 1: Intro & Fundamentals -->
+            <section class="bg-white p-5 sm:p-6 md:p-8 rounded-2xl shadow-xl card hover:shadow-2xl transition-shadow duration-300">
+                <h2 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 section-header border-b pb-2 flex items-center"><i class="fas fa-info-circle mr-3 text-emerald-800 text-xl"></i>പേരിനു പിന്നിലും, കാതലായ ആശയങ്ങളും</h2>
+                <ul class="space-y-4 text-sm sm:text-base text-gray-700">
+                    <li class="flex items-start"><i class="fas fa-check-circle text-emerald-600 mt-1 flex-shrink-0 mr-3 w-5 text-center"></i> <div><strong>പേരിന്റെ അർത്ഥം:</strong> നിയമപുസ്തകത്തിന്റെ <strong>'പകർപ്പ്'</strong> എന്ന അർഥമുള്ള ഹീബ്രുപദം ഗ്രീക്കിലേക്കു വിവർത്തനം ചെയ്തതിൽ നിന്നാണ് ഈ പേരു ലഭിച്ചത് (ആമുഖം).</div></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-emerald-600 mt-1 flex-shrink-0 mr-3 w-5 text-center"></i> <div><strong>അടിസ്ഥാന ആദർശങ്ങൾ:</strong> <strong>ഒരു ദൈവം, ഒരു ജനം, ഒരു ഭൂമി, ഒരു ആരാധനസ്ഥലം</strong> എന്നീ ആദർശങ്ങളാൽ ഒരുമയിലേക്കു വിളിക്കപ്പെട്ട ജനമാണ് ഇസ്രായേൽ.</div></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-emerald-600 mt-1 flex-shrink-0 mr-3 w-5 text-center"></i> <div><strong>ഷെമാ ഇസ്രായേൽ (Shema - 6:4-5):</strong> "ഇസ്രായേലേ, കേള്‍ക്കുക; നമ്മുടെ ദൈവമായ കര്‍ത്താവാണ് ഏക കര്‍ത്താവ്. നിന്റെ ദൈവമായ കര്‍ത്താവിനെ പൂര്‍ണഹൃദയത്തോടും പൂര്‍ണാത്മാവോടും പൂര്‍ണശക്തിയോടുംകൂടി സ്‌നേഹിക്കണം."</div></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-emerald-600 mt-1 flex-shrink-0 mr-3 w-5 text-center"></i> <div><strong>രാജാവിനുള്ള നിയമം (17:16-17):</strong> ഇസ്രായേലിലെ രാജാവ് കുതിരകളെ വർദ്ധിപ്പിക്കരുത്, അനേകം ഭാര്യമാരെ എടുക്കരുത്, സ്വർണ്ണവും വെള്ളിയും അമിതമായി സമ്പാദിക്കരുത്.</div></li>
+                </ul>
+            </section>
+
+            <!-- Section 2: End of an Era (Moses' Death) -->
+            <section class="bg-white p-5 sm:p-6 md:p-8 rounded-2xl shadow-xl card hover:shadow-2xl transition-shadow duration-300">
+                <h2 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 section-header border-b pb-2 flex items-center"><i class="fas fa-mountain mr-3 text-emerald-800 text-xl"></i>മോശയുടെ അന്ത്യം (അധ്യായം 34)</h2>
+                
+                <div class="mb-4 bg-emerald-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-emerald-900 mb-2 text-sm sm:text-base">അന്ത്യവിശ്രമവും വിലാപവും</h3>
+                    <ul class="list-disc pl-5 text-xs sm:text-sm space-y-1.5 text-gray-700">
+                        <li><strong>മരണസ്ഥലം:</strong> കർത്താവിന്റെ ദാസനായ മോശ അവിടുന്ന് അരുളിച്ചെയ്തതുപോലെ <strong>മൊവാബുദേശത്തുവച്ചു</strong> മരിച്ചു (34:5).</li>
+                        <li><strong>ശവകുടീരം:</strong> മൊവാബുദേശത്തു ബത് പെയോറിന് എതിരേയുള്ള താഴ്‌വരയിൽ അവൻ സംസ്‌കരിക്കപ്പെട്ടു. എന്നാൽ, <strong>ഇന്നുവരെ അവന്റെ ശവകുടീരത്തിന്റെ സ്ഥാനം ആർക്കും അറിവില്ല</strong> (34:6).</li>
+                        <li><strong>വിലാപം:</strong> ഇസ്രായേൽ <strong>മുപ്പതു ദിവസം</strong> മൊവാബുതാഴ്‌വരയിൽ മോശയെ ഓർത്തു വിലപിച്ചു (34:8).</li>
+                    </ul>
+                </div>
+
+                <div class="bg-teal-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-teal-900 mb-2 text-sm sm:text-base">മോശയുടെ പ്രായവും പിൻഗാമിയും</h3>
+                    <ul class="list-disc pl-5 text-xs sm:text-sm space-y-1.5 text-gray-700">
+                        <li>മരിക്കുമ്പാൾ മോശയ്ക്കു <strong>നൂറ്റിയിരുപതു വയസ്സുണ്ടായിരുന്നു</strong>. അവന്റെ കണ്ണു മങ്ങുകയോ ശക്തി ക്ഷയിക്കുകയോ ചെയ്തിരുന്നില്ല (34:7).</li>
+                        <li>നൂനിന്റെ പുത്രനായ <strong>ജോഷ്വ ജ്ഞാനത്തിന്റെ ആത്മാവിനാൽ പൂരിതനായിരുന്നു</strong>; എന്തെന്നാൽ, മോശ അവന്റെ മേൽ കൈകൾ വച്ചിരുന്നു (34:9).</li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Section 3: Hardcore Trivia / Small Details -->
+        <section class="bg-white p-5 sm:p-6 md:p-8 rounded-2xl shadow-xl card overflow-hidden">
+            <h2 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 section-header border-b pb-2 flex items-center"><i class="fas fa-microscope mr-3 text-emerald-800 text-xl"></i>സൂക്ഷ്മ വിവരങ്ങൾ (Priests' Special)</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                <div class="bg-gray-50 p-4 sm:p-5 rounded-xl border-l-4 border-emerald-500">
+                    <h4 class="font-bold text-gray-800 mb-1 sm:mb-2 text-sm sm:text-base">അനുഗ്രഹവും ശാപവും പ്രഖ്യാപിച്ച മലകൾ</h4>
+                    <p class="text-xs sm:text-sm text-gray-600">അനുഗ്രഹങ്ങൾ <strong>ഗരിസിം മലയിലും</strong> (Mount Gerizim), ശാപങ്ങൾ <strong>ഏബൽ മലയിലും</strong> (Mount Ebal) പ്രഖ്യാപിക്കണം (11:29).</p>
+                </div>
+                <div class="bg-gray-50 p-4 sm:p-5 rounded-xl border-l-4 border-teal-500">
+                    <h4 class="font-bold text-gray-800 mb-1 sm:mb-2 text-sm sm:text-base">മോശ കാനാൻ ദേശം കണ്ട മല</h4>
+                    <p class="text-xs sm:text-sm text-gray-600">മോശ മൊവാബിലെ സമതലങ്ങളിൽനിന്നു ജറീക്കോയ്ക്ക് എതിരേയുള്ള <strong>നെബോ മലയിൽ പിസ്ഗായുടെ മുകളിലേക്കു</strong> കയറി (34:1).</p>
+                </div>
+                <div class="bg-gray-50 p-4 sm:p-5 rounded-xl border-l-4 border-green-500">
+                    <h4 class="font-bold text-gray-800 mb-1 sm:mb-2 text-sm sm:text-base">മറ്റൊരു പ്രവാചകൻ (18:15)</h4>
+                    <p class="text-xs sm:text-sm text-gray-600">"നിന്റെ ദൈവമായ കർത്താവ് നിങ്ങളുടെ സഹോദരന്മാരുടെ ഇടയിൽനിന്ന് <strong>എന്നെപ്പോലെ ഒരു പ്രവാചകനെ</strong> നിങ്ങള്‍ക്കായി ഉയര്‍ത്തും." (ക്രിസ്തുവിനെക്കുറിച്ചുള്ള പ്രവചനം).</p>
+                </div>
+                <div class="bg-gray-50 p-4 sm:p-5 rounded-xl border-l-4 border-yellow-500">
+                    <h4 class="font-bold text-gray-800 mb-1 sm:mb-2 text-sm sm:text-base">പത്തു കൽപനകളുടെ ആവർത്തനം</h4>
+                    <p class="text-xs sm:text-sm text-gray-600">പുറപ്പാട് പുസ്തകം 20-ാം അധ്യായത്തിൽ പറയുന്ന പത്തു കൽപനകൾ, നിയമാവർത്തനം <strong>5-ാം അധ്യായത്തിൽ</strong> ആവർത്തിച്ചു രേഖപ്പെടുത്തിയിട്ടുണ്ട്.</p>
+                </div>
+                <div class="bg-gray-50 p-4 sm:p-5 rounded-xl border-l-4 border-orange-500">
+                    <h4 class="font-bold text-gray-800 mb-1 sm:mb-2 text-sm sm:text-base">അഭയനഗരങ്ങൾ (19:2-9)</h4>
+                    <p class="text-xs sm:text-sm text-gray-600">അബദ്ധത്തിൽ കൊലചെയ്യുന്നവന് ഓടിയൊളിക്കാൻ, നിങ്ങളുടെ ദേശം മൂന്നായി തിരിച്ച് <strong>മൂന്നു നഗരങ്ങൾ</strong> മാറ്റിവയ്ക്കണം.</p>
+                </div>
+                <div class="bg-gray-50 p-4 sm:p-5 rounded-xl border-l-4 border-red-500">
+                    <h4 class="font-bold text-gray-800 mb-1 sm:mb-2 text-sm sm:text-base">മരത്തിൽ തൂക്കപ്പെട്ടവൻ (21:23)</h4>
+                    <p class="text-xs sm:text-sm text-gray-600">വധിക്കപ്പെട്ടവന്റെ മൃതദേഹം രാത്രിയിൽ മരത്തിൽ തൂക്കിയിടരുത്; അന്നുതന്നെ അടക്കണം. കാരണം, <strong>മരത്തിൽ തൂക്കപ്പെടുന്നവൻ ദൈവത്താൽ ശപിക്കപ്പെട്ടവനാണ്</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Advanced Cross References Table (Crucial for Deuteronomy) -->
+        <section class="bg-white p-5 sm:p-6 md:p-8 rounded-2xl shadow-xl card">
+            <h2 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 section-header border-b pb-2 flex items-center"><i class="fas fa-project-diagram mr-3 text-emerald-800 text-xl"></i>പുതിയ നിയമ ക്രോസ്സ് റെഫറൻസുകൾ (ഏറ്റവും പ്രധാനം)</h2>
+            <div class="bg-yellow-50 p-3 mb-4 rounded-lg border border-yellow-200 text-xs sm:text-sm text-gray-700">
+                <i class="fas fa-exclamation-triangle text-yellow-600 mr-2"></i>യേശു മരുഭൂമിയിൽ പിശാചിനാൽ പരീക്ഷിക്കപ്പെട്ടപ്പോൾ (മത്തായി 4), പിശാചിന് മറുപടി നൽകാൻ <strong>മൂന്നു പ്രാവശ്യവും ഉദ്ധരിച്ചത് നിയമാവർത്തന പുസ്തകത്തിൽ നിന്നുള്ള വാക്യങ്ങളാണ്</strong>.
+            </div>
+            <div class="overflow-x-auto rounded-lg shadow-sm border border-gray-200">
+                <table class="w-full text-left border-collapse min-w-[500px]">
+                    <thead>
+                        <tr class="bg-emerald-900 text-white text-sm sm:text-base">
+                            <th class="p-3 sm:p-4 whitespace-nowrap">ആശയം / വാക്യം</th>
+                            <th class="p-3 sm:p-4 whitespace-nowrap">നിയമാവർത്തനം</th>
+                            <th class="p-3 sm:p-4">പുതിയ നിയമം (യേശുവിന്റെ ഉദ്ധരണി)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-xs sm:text-sm md:text-base divide-y divide-gray-200">
+                        <tr class="hover:bg-emerald-50 transition-colors">
+                            <td class="p-3 sm:p-4 font-semibold text-emerald-900">മനുഷ്യൻ അപ്പംകൊണ്ടു മാത്രമല്ല... ജീവിക്കുന്നത്</td>
+                            <td class="p-3 sm:p-4 text-gray-700 whitespace-nowrap">8:3</td>
+                            <td class="p-3 sm:p-4 text-blue-700">മത്തായി 4:4 (ഒന്നാം പ്രലോഭനം)</td>
+                        </tr>
+                        <tr class="hover:bg-emerald-50 transition-colors bg-gray-50">
+                            <td class="p-3 sm:p-4 font-semibold text-emerald-900">നിങ്ങളുടെ ദൈവമായ കർത്താവിനെ പരീക്ഷിക്കരുത്</td>
+                            <td class="p-3 sm:p-4 text-gray-700 whitespace-nowrap">6:16</td>
+                            <td class="p-3 sm:p-4 text-blue-700">മത്തായി 4:7 (രണ്ടാം പ്രലോഭനം)</td>
+                        </tr>
+                        <tr class="hover:bg-emerald-50 transition-colors">
+                            <td class="p-3 sm:p-4 font-semibold text-emerald-900">ദൈവമായ കർത്താവിനെ മാത്രമേ ആരാധിക്കാവൂ</td>
+                            <td class="p-3 sm:p-4 text-gray-700 whitespace-nowrap">6:13, 10:20</td>
+                            <td class="p-3 sm:p-4 text-blue-700">മത്തായി 4:10 (മൂന്നാം പ്രലോഭനം)</td>
+                        </tr>
+                        <tr class="hover:bg-emerald-50 transition-colors bg-gray-50">
+                            <td class="p-3 sm:p-4 font-semibold text-emerald-900">ഏറ്റവും വലിയ കൽപന (പൂർണ്ണഹൃദയത്തോടെ സ്നേഹിക്കുക)</td>
+                            <td class="p-3 sm:p-4 text-gray-700 whitespace-nowrap">6:5</td>
+                            <td class="p-3 sm:p-4 text-blue-700">മത്തായി 22:37</td>
+                        </tr>
+                        <tr class="hover:bg-emerald-50 transition-colors">
+                            <td class="p-3 sm:p-4 font-semibold text-emerald-900">രണ്ടോ മൂന്നോ സാക്ഷികൾ വേണം</td>
+                            <td class="p-3 sm:p-4 text-gray-700 whitespace-nowrap">19:15</td>
+                            <td class="p-3 sm:p-4 text-blue-700">മത്തായി 18:16, 2 കോറിന്തോസ് 13:1</td>
+                        </tr>
+                        <tr class="hover:bg-emerald-50 transition-colors bg-gray-50">
+                            <td class="p-3 sm:p-4 font-semibold text-emerald-900">മരത്തിൽ തൂക്കപ്പെടുന്നവൻ ശപിക്കപ്പെട്ടവനാണ്</td>
+                            <td class="p-3 sm:p-4 text-gray-700 whitespace-nowrap">21:23</td>
+                            <td class="p-3 sm:p-4 text-blue-700">ഗലാത്തിയാ 3:13 (ക്രിസ്തു നമുക്കുവേണ്ടി ശാപമായിത്തീർന്നു)</td>
+                        </tr>
+                        <tr class="hover:bg-emerald-50 transition-colors">
+                            <td class="p-3 sm:p-4 font-semibold text-emerald-900">ഭാര്യയെ ഉപേക്ഷിക്കാൻ ഉപേക്ഷാപത്രം കൊടുക്കുക</td>
+                            <td class="p-3 sm:p-4 text-gray-700 whitespace-nowrap">24:1</td>
+                            <td class="p-3 sm:p-4 text-blue-700">മത്തായി 19:7 (ഫരിസേയർ യേശുവിനോട് ചോദിക്കുന്നത്)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Section 5: Hardcore Interactive Fill in the Blanks -->
+        <section class="bg-gray-900 text-white p-5 sm:p-6 md:p-8 rounded-2xl shadow-xl border-t-4 border-yellow-500 relative overflow-hidden">
+            <div class="absolute right-0 top-0 opacity-10 text-7xl sm:text-9xl"><i class="fas fa-question"></i></div>
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-bold mb-2 text-yellow-400 relative z-10 flex items-center"><i class="fas fa-bolt mr-3 text-yellow-500"></i>റാപ്പിഡ് ഫയർ: കഠിന ചോദ്യങ്ങൾ</h2>
+            <p class="text-xs sm:text-sm text-gray-300 mb-6 sm:mb-8 relative z-10 bg-gray-800 inline-block px-3 py-1 rounded-full border border-gray-700">
+                <i class="fas fa-hand-pointer mr-2"></i>ഉത്തരം കാണുന്നതിനായി കറുത്ത വരകളിൽ <strong>തൊടുക (Tap)</strong> അല്ലെങ്കിൽ <strong>മൗസ് വെക്കുക (Hover)</strong>.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 text-sm sm:text-base md:text-lg relative z-10 leading-relaxed">
+                
+                <p>1. മരിക്കുമ്പോൾ മോശയുടെ പ്രായം എത്രയായിരുന്നു? <br>
+                    <span class="reveal-answer px-3 py-1.5 rounded font-bold mt-2 inline-block shadow-sm" onclick="this.classList.toggle('revealed')">നൂറ്റിയിരുപതു വയസ്സുണ്ടായിരുന്നു (34:7)</span>
+                </p>
+
+                <p>2. ഈ വാക്കുകൾ നിന്റെ ഹൃദയത്തിൽ ഉണ്ടായിരിക്കണം; നീ നിന്റെ മക്കളെ ഇവ ആവർത്തിച്ചു പഠിപ്പിക്കണം. ഈ വാക്യങ്ങൾ അറിയപ്പെടുന്ന പേരെന്ത്? <br>
+                    <span class="reveal-answer px-3 py-1.5 rounded font-bold mt-2 inline-block shadow-sm" onclick="this.classList.toggle('revealed')">ഷെമാ (Shema - 6:4-7)</span>
+                </p>
+
+                <p>3. ഇസ്രായേൽക്കാർ മോശയെ ഓർത്ത് മൊവാബുതാഴ്‌വരയിൽ എത്ര ദിവസം വിലപിച്ചു? <br>
+                    <span class="reveal-answer px-3 py-1.5 rounded font-bold mt-2 inline-block shadow-sm" onclick="this.classList.toggle('revealed')">മുപ്പതു ദിവസം (34:8)</span>
+                </p>
+
+                <p>4. മോശ തന്റെ മേൽ കൈകൾ വച്ചിരുന്നതിനാൽ ജ്ഞാനത്തിന്റെ ആത്മാവിനാൽ പൂരിതനായ പിൻഗാമി ആര്? <br>
+                    <span class="reveal-answer px-3 py-1.5 rounded font-bold mt-2 inline-block shadow-sm" onclick="this.classList.toggle('revealed')">നൂനിന്റെ പുത്രനായ ജോഷ്വ (34:9)</span>
+                </p>
+
+                <p>5. നിയമപുസ്തകത്തിന്റെ പകർപ്പ് എന്ന അർത്ഥമുള്ള ഹീബ്രുപദം ഏത് ഭാഷയിലേക്ക് വിവർത്തനം ചെയ്തതിൽ നിന്നാണ് നിയമാവർത്തനം എന്ന പേരുണ്ടായത്? <br>
+                    <span class="reveal-answer px-3 py-1.5 rounded font-bold mt-2 inline-block shadow-sm" onclick="this.classList.toggle('revealed')">ഗ്രീക്ക് ഭാഷയിലേക്ക് (ആമുഖം)</span>
+                </p>
+
+                <p>6. ശാപവചനങ്ങൾ പ്രഖ്യാപിക്കാനായി ഇസ്രായേൽക്കാർ നിൽക്കേണ്ടിയിരുന്ന മല ഏത്? <br>
+                    <span class="reveal-answer px-3 py-1.5 rounded font-bold mt-2 inline-block shadow-sm" onclick="this.classList.toggle('revealed')">ഏബൽ മല (11:29)</span>
+                </p>
+
+                <p>7. അബദ്ധത്തിൽ കൊലചെയ്യുന്നവന് ഓടിയൊളിക്കാൻ കാനാൻ ദേശത്ത് എത്ര അഭയനഗരങ്ങളാണ് മാറ്റിവെക്കേണ്ടിയിരുന്നത്? <br>
+                    <span class="reveal-answer px-3 py-1.5 rounded font-bold mt-2 inline-block shadow-sm" onclick="this.classList.toggle('revealed')">മൂന്നു നഗരങ്ങൾ (19:2)</span>
+                </p>
+
+                <p>8. മോശ മരിച്ച താഴ്‌വര ഏത് സ്ഥലത്തിന് എതിരെയായിരുന്നു? <br>
+                    <span class="reveal-answer px-3 py-1.5 rounded font-bold mt-2 inline-block shadow-sm" onclick="this.classList.toggle('revealed')">ബത് പെയോറിന് എതിരേ (34:6)</span>
+                </p>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="text-center text-emerald-700 mt-10 sm:mt-12 mb-6 sm:mb-8 text-xs sm:text-sm font-medium px-4">
+        തയ്യാറാക്കിയത്: POC മലയാളം ബൈബിൾ പരിഭാഷയെ പൂർണ്ണമായും അടിസ്ഥാനമാക്കി.<br>
+        <span class="text-emerald-500 mt-1 inline-block">Best viewed on Mobile & Desktop</span>
+    </footer>
+
+</body>
+</html>
